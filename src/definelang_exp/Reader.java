@@ -18,6 +18,7 @@ import org.antlr.v4.tool.LexerGrammar;
 
 import definelang_exp.AST.*;
 
+@SuppressWarnings("deprecation")
 public class Reader {
 	
 	private static String GRAMMAR_FILE = "build/definelang/DefineLang.g";

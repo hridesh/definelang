@@ -9,6 +9,7 @@ import org.antlr.v4.runtime.*;
 import definelang.parser.*; 
 import definelang.AST.*;
 
+@SuppressWarnings("deprecation")
 public class Reader {
 	
 	public Program read() throws IOException {
